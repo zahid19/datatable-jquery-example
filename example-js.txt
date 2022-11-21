@@ -1,0 +1,48 @@
+//EXAMPLE #1  /////////////////////////////////////////////////////////
+<script>
+$('#qTable').dataTable({
+    "order": [],  
+	"pageLength": 25,
+	"ordering": false
+} );
+</script>
+
+//EXAMPLE #2 /////////////////////////////////////////////////////////
+<script>
+$('#bootstrap-data-table').DataTable({
+        lengthMenu: [[10, 20, 50, -1], [10, 20, 50, "All"]],
+    });
+</script>
+
+//EXAMPLE #3 /////////////////////////////////////////////////////////
+<script>
+$('#example').DataTable({
+        "order": []
+    });
+</script>
+
+//EXAMPLE #4 /////////////////////////////////////////////////////////
+<script>
+$('#noorderdatatable').DataTable({
+        "ordering": false,
+        "iDisplayLength": 1000
+    });
+</script>
+
+// EXAMPLE #5 /////////////////////////////////////////////////////////
+<script>
+$('#noorderdatatable').DataTable( {
+        "ordering": false , 
+        "pageLength": 1000,
+        "lengthMenu": [10, 50, 100, 500, 1000]
+    });
+</script>
+
+// EXAMPLE #6 /////////////////////////////////////////////////////////
+<script>
+$('#qTable').dataTable({
+    "order": [],
+	"pageLength": 25,
+	"ordering": false
+} );
+</script>
